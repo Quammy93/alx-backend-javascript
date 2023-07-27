@@ -1,4 +1,7 @@
 // A promise prototype function
 
-function getResponseFromAPI() {
-	return 
+export default function getResponseFromAPI() {
+	return promise((res) =>{
+	res("Maxwell is learning"); 
+	});
+}
